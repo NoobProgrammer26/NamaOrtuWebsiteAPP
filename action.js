@@ -96,6 +96,18 @@ if (anak == "") {
 	papa = document.getElementById("dad").innerHTML = "Herman";
 	mama = document.getElementById("mom").innerHTML = "Fanny Tesalonika";
 	kdname = document.getElementById("an").innerHTML = anak
+} else if (anak == "NAGITA") {
+	papa = document.getElementById("dad").innerHTML = "Unknown/Another Error";
+	mama = document.getElementById("mom").innerHTML = "Vivi Ferawati";
+	kdname = document.getElementById("an").innerHTML = anak
+} else if (anak == "TYO") {
+	papa = document.getElementById("dad").innerHTML = "Gunawan";
+	mama = document.getElementById("mom").innerHTML = "Sri Hartuti";
+	kdname = document.getElementById("an").innerHTML = anak
+} else if (anak == "AREL") {
+	papa = document.getElementById("dad").innerHTML = "Unknown/Another Error";
+	mama = document.getElementById("mom").innerHTML = "Nani";
+	kdname = document.getElementById("an").innerHTML = anak
 } else if (anak == "cmd.Help") {
 	alert("Command List :\n-Cmd.Credits : Gunanya untuk melihat Kredit\n-Cmd.TestName : Gunanya untuk mengetest nama anak dan ortu\n-Cmd.Help : Gunanya untuk melihat macam-macam command")
 } else {
