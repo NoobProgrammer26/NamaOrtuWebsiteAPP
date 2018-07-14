@@ -92,13 +92,16 @@ if (anak == "") {
 	mama = document.getElementById("mom").innerHTML = y;
 	kdname = document.getElementById("an").innerHTML = nama
 	document.getElementById("isi").value = nama
+} else if (anak == "NATHAN") {
+	papa = document.getElementById("dad").innerHTML = "Herman";
+	mama = document.getElementById("mom").innerHTML = "Fanny Tesalonika";
+	kdname = document.getElementById("an").innerHTML = anak
 } else if (anak == "cmd.Help") {
 	alert("Command List :\n-Cmd.Credits : Gunanya untuk melihat Kredit\n-Cmd.TestName : Gunanya untuk mengetest nama anak dan ortu\n-Cmd.Help : Gunanya untuk melihat macam-macam command")
 } else {
 	alert("Error 404\nNAME_NOT_FOUND_OR_UNKNOWN_STRING\nIf you get this error make sure you:\n-Use (C)apital letter for the name\n-Check your typing before you press SUBMIT\n-Make sure you are not an idiot\n\n(c) 2016-2018 GSoft Corp")
 }
 }
-
 function hapus() {
 	if (document.getElementById("isi").value == "") {
 		alert("The Textbox is already cleared!\nTextbox-nya udah di hapus semuanya!")
