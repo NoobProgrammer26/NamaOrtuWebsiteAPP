@@ -1,0 +1,51 @@
+.Header {
+	font-size:large;
+	font-style:bold;
+	border-style:double;
+	text-align:center;
+	border-width:10px;
+	background-color:#FFFFFF;
+}
+
+.mainpg {
+	background-color:#FFFFFF;
+	border-width:10px;
+	border-style:double;
+	font-size:160%
+}
+
+#kidsname {
+	text-transform:capitalize;
+}
+body {
+	background-image:url("background.jpg");
+	font-family:courier;
+}
+.sp1 {
+	background-color:white;
+}
+.hasil {
+	background-color:white;
+	color:black;
+	border-width:10px;
+	border-style:double;
+	font-size:120%
+	
+} 
+.isi {
+	font-size:large;
+	margin-left:auto;
+	margin-right:auto;
+}
+.tentang {
+	border-width:10px;
+	border-style:double;
+	background-color:#FFFFFF;
+	text-align:center;
+}
+#copyright {
+	font-size:10px;
+	font-size:100%
+}
+
+
